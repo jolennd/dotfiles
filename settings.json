@@ -1,77 +1,79 @@
 {
-    "[python]": {
-        "editor.bracketPairColorization.enabled": false,
-        "editor.guides.bracketPairs": false,
-        "editor.tabSize": 4
-    },
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "php.validate.enable": false,
+    "ruby.useLanguageServer": true,
+    "ruby.useBundler": true,
+    "editor.matchBrackets": "always",
     "editor.bracketPairColorization.enabled": true,
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "editor.fontSize": 14,
     "editor.guides.bracketPairs": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.renderControlCharacters": true,
-    "editor.rulers": [
-        80,
-        120
-    ],
+    "editor.renderControlCharacters": false,
+    "editor.rulers": [80, 120],
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
-        "erb": "html"
+      "erb": "html"
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
     "files.exclude": {
-        "__pycache__": true,
-        "_site": true,
-        ".asset-cache": true,
-        ".bundle": true,
-        ".ipynb_checkpoints": true,
-        ".pytest_cache": true,
-        ".sass-cache": true,
-        ".svn": true,
-        "**/.DS_Store": true,
-        "**/.egg-info": true,
-        "**/.git": true,
-        "build": true,
-        "coverage": true,
-        "dist": true,
-        "log": true,
-        "node_modules": true,
-        "public/packs": true,
-        "tmp": true
+      "__pycache__": true,
+      "_site": true,
+      ".asset-cache": true,
+      ".bundle": true,
+      ".ipynb_checkpoints": true,
+      ".pytest_cache": true,
+      ".sass-cache": true,
+      ".svn": true,
+      "**/.DS_Store": true,
+      "**/.egg-info": true,
+      "**/.git": true,
+      "build": true,
+      "coverage": true,
+      "dist": true,
+      "log": true,
+      "node_modules": true,
+      "public/packs": true,
+      "tmp": true
     },
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
-        "**/audits/**": true,
-        "**/coverage/**": true,
-        "**/log/**": true,
-        "**/node_modules/**": true,
-        "**/tmp/**": true,
-        "**/vendor/**": true
+      "**/audits/**": true,
+      "**/coverage/**": true,
+      "**/log/**": true,
+      "**/node_modules/**": true,
+      "**/tmp/**": true,
+      "**/vendor/**": true
     },
-    "git.enabled": false,
+    "git.enabled": true,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
     "python.defaultInterpreterPath": "~/.pyenv/shims/python",
     "python.formatting.provider": "yapf",
     "python.languageServer": "Pylance",
-    "python.linting.enabled": false,
-    "python.linting.flake8Enabled": false,
-    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
     "python.terminal.activateEnvironment": false,
     "ruby.lint": {
-        "rubocop": true
+      "rubocop": true
     },
     "search.exclude": {
-      // Inherits all glob patterns from the `files.exclude` setting.
       "**/.venv": true
     },
     "telemetry.telemetryLevel": "off",
@@ -84,5 +86,87 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
-    "workbench.colorTheme": "Default High Contrast",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "editor.renderWhitespace": "none",
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "github.copilot.editor.titleBar": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[ruby]": {
+      "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "ruby.rubocop.onSave": true,
+    "ruby.rubocop.executePath": "/Users/jolenndarensbourg/.rbenv/shims",
+    "ruby.rubocop.useBundler": true,
+    "[erb]": {
+      "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
+      "editor.formatOnSave": true
+    },
+    "files.associations": {
+      "*.html.erb": "erb"
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "[python]": {
+      "editor.bracketPairColorization.enabled": false,
+      "editor.guides.bracketPairs": false,
+      "editor.tabSize": 4
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[less]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "workbench.preferredHighContrastColorTheme": "Default Dark Modern"
+  },
+  "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+  "window.commandCenter": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.editor.autoLockGroups": {
+    "markdown-preview-enhanced": true
+},
+"terminal.integrated.mouseWheelScrollSensitivity": 3,
+"terminal.integrated.gpuAcceleration": "off",
+"claudeCode.preferredLocation": "panel",
+"workbench.sideBar.location": "right"
 }

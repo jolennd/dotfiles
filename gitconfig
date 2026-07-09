@@ -58,7 +58,8 @@
   rebase = false
 
 [init]
-  defaultBranch = master
+  defaultBranch = main
+
 [user]
 	email = jolennd@gmail.com
 	name = Jolenn Darensbourg
